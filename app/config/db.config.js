@@ -1,9 +1,11 @@
-
+ 
+  
+  
   module.exports = {
-    HOST:"localhost",
+    HOST:"139.84.136.174",
     USER:"postgres",
-    PASSWORD:"1500",
-    DB: "urlshortnar",
+    PASSWORD:"Investry@123",
+    DB: "urlshortner",
     PORT:5432,
     dialect: "postgres",
     pool: {
@@ -12,9 +14,7 @@
       acquire: 30000,
       idle: 10000
     }
-  };     
-  
-  
+  };   
     
        
   
