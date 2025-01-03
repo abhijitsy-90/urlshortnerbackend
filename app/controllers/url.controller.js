@@ -24,7 +24,7 @@ exports.createshortUrl = async (req, reply) => {
 
         const shortId = nanoid(11);
 
-        const shortUrl = `http://localhost:8080/redirect/${shortId}`;
+        const shortUrl = `https://urlshortnerbackend-wvpt.onrender.com/redirect/${shortId}`;
 
         await url.create({
             originalurl: originalurl,
